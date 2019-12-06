@@ -6,7 +6,7 @@
 
 ## Intro
 
-Computers are obedient. So obedient that they will only do what you tell them to, nothing more. They don't "think for themselves".
+Computers are obedient. They will only do what you tell them to, nothing more.
 
 Pretend you are a computer and that I give you this program first thing in the moring:
 
@@ -21,9 +21,12 @@ Pretend you are a computer and that I give you this program first thing in the m
 8. Put dishes in the sink
 ```
 
-Did you notice that you did not pour milk in the bowl? Or that you could have been eating standing, with a fork. Most importantly, did you catch that you only actually ate one bite of cereal?!
+Did you notice that you did not pour milk in the bowl?
+Or that you could have been eating standing, with a fork.
 
-As computer scientists and programmers, we get to focus on solving problems using the least energy possible. Let's face it - you only getting one bite of cereal is a problem! - and we can FIX IT! But how do we program "computer you" so that you can eat every bite of cereal?
+Most importantly, did you catch that you only actually ate one bite of cereal?!
+
+As computer scientists and programmers, we get to focus on _solving problems using the least energy possible_. AND Let's face it - you only getting one bite of cereal is a problem! - and we can FIX IT! But how do we program "computer you" so that you can eat every bite of cereal?
 
 Let's put this problem (and our spoons) aside for a second and look at how we would use two critical computer science concepts (**loops and conditionals**) to tackle a similar problem: a game of rock-paper-scissors.
 
