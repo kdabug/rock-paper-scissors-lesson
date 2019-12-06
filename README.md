@@ -64,11 +64,16 @@ for(let i = startingPoint; i < endingPoint; i++){
 
 Fatal errors when looping? An infinite loop. A loop without a breaking point. This will freeze your computer by exceeding the call stack. Make sure every loop you create has a break point.
 
-So now let's apply this to our game! What are some steps that we might need to go through everytime we play a game of rock-rock-rock?
+So now let's apply this to our game!
+
+What are some steps that we might need to go through _everytime_ we play a game of rock-rock-rock?
 
 ## Conditionals
 
-Now that we can play rock-rock-rock by looping over the instructions, how about we figure out who wins? Let's reintroduce our different game options: rock,paper, and scissors back again.
+Now that we can play rock-rock-rock by looping over the instructions, how about we figure out who wins?
+Let's reintroduce our different game options: **rock, paper, and scissors**.
+
+When we play rock paper scissors, we will have a different combination of any two of our three options at any game.
 
 **Conditionals** mean that the computer should perform a different task based on which conditions are true. Most commonly, they take on an "if - then - else" form. These types of conditional statements _control the flow_ of the code.
 
