@@ -2,7 +2,7 @@
 
 ### Loops and Conditionals in Computer Programming
 
-![rock, paper, scissors](rock-paper-scissors.png =200x)
+<img src="./rock-paper-scissors.png" width="200">
 
 ## Intro
 
