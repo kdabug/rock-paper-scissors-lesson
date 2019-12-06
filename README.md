@@ -73,7 +73,7 @@ What are some steps that we might need to go through _everytime_ we play a game 
 Now that we can play rock-rock-rock by looping over the instructions, how about we figure out who wins?
 Let's reintroduce our different game options: **rock, paper, and scissors**.
 
-When we play rock paper scissors, we will have a different combination of any two of our three options at any game.
+When we play rock paper scissors, we will have a different combination of any two of our three options at any game. How will the computer determine who wins in any of those combinations?
 
 **Conditionals** mean that the computer should perform a different task based on which conditions are true. Most commonly, they take on an "if - then - else" form. These types of conditional statements _control the flow_ of the code.
 
