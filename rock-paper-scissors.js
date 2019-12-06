@@ -4,9 +4,15 @@ function getInput(prompt) {
   return readlineSync.question(`${prompt}: `);
 }
 
-function greet() {
-  let name = getInput("Hello! What is your name?");
-  console.log(`Welcome to HIGH-LOW, ${name}!`);
+function getWinningScore() {
+  let name = getInput(
+    "Hello! Welcome to Rock-Paper-Scissors. What is the winning score for your game?"
+  );
+  return name;
+}
+
+function greet(player) {
+  let name = getInput(`Hello ${player}! What is your name?`);
   return name;
 }
 
@@ -34,14 +40,14 @@ function play(name1, name2) {
   return compare(playerOneInput, playerTwoInput);
 }
 
-function playRockPaperScissors(winningScore) {
-  let playerOneName = greet();
-  let playerTwoName = greet();
+function playRockPaperScissors() {
+  let winningScore = getWinningScore();
+  let playerOneName = greet("player one");
+  let playerTwoName = greet("player two");
   let playerOneScore = 0;
   let playerTwoScore = 0;
-
-  while (playerOneScore < 5 || playerTwoScore < 5) {
-    if (play() === true) {
+  while (playerOneScore < winningScore || playerTwoScore < winningScore) {
+    if (play(playerOneName, playerTwoName) === true) {
       playerOneScore++;
       console.log(`${playerOneName} wins`);
     } else {
@@ -51,4 +57,4 @@ function playRockPaperScissors(winningScore) {
     `The score is now ${playerOneName}-${playerOneScore} and ${playerTwoName}-${playerTwoScore}`;
   }
 }
-playGame();
+playRockPaperScissors();
